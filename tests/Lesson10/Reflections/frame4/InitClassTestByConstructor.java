@@ -9,9 +9,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class InitClassTestByConstructor {
-    InitConstruktor <TV> initConstruktor;
-    Class clas;
-    List<Object> params;
+   private InitConstruktor <TV> initConstruktor;
+   private Class clas;
+   private List<Object> params;
 
     @Before
     public void init () {
